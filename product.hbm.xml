@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+    <class name="Servion.ProductDescBean" table="product">
+        <id name="pid" column="pid" ></id>
+        <property name="p_name" />
+        <property name="p_cat" />
+       <property name="p_price" />
+       <property name="p_desc" />
+       <property name="p_img" />   
+    </class>  
+    
+    
+</hibernate-mapping>
+
+

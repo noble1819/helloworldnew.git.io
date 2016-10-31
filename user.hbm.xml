@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+    <class name="Servion.UserEntity" table="users">
+        <id name="uid" column="uid" ></id>
+        <property name="fname" />
+        <property name="lname" />
+        <property name="uname" />
+        <property name="pass" />
+       <property name="status" />  
+    </class>  
+    <query name="GetAll">
+    
+    <![CDATA[from UserEntity]]>
+    
+    </query>
+    
+</hibernate-mapping>
+
+
